@@ -1,7 +1,7 @@
 name = "김형욱"
-year = 2026
-score = 99.9
+target_year = 2050
+future_job = "데이터 분석가"
 
-print("이름 : ", name, "연도 : ", year)
-# f는 Formatted String Literal, 즉 문자열 포맷팅을 의미
-print(f"{name}의 {year}년 예측 점수는 {score}입니다.")
+
+# f-string으로 아래 문장 만들기
+print(f"{name}님의 {target_year}년에는 {future_job}로 일하고 싶습니다.")
