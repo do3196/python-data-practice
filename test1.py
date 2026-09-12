@@ -17,7 +17,7 @@ elif operator == "/":
     # 0으로 나누는 경우 예외 처리
     if num2 != 0:
         result = num1 / num2
-        print(f"결과: {num1} / {num2} = {result}")
+        print(f"결과: {num1} / {num2} = {result:.2f}")
     else:
         print("오류: 0으로 나눌 수 없습니다.")
 else:
